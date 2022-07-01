@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/capstone.css">
+  <title>About Me</title>
+</head>
+<body>
+  <header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid" id="navfluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      	<span class="navbar-toggler-icon"></span>
+    	</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="nav navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.html"><h6>Home</h6></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="projects.html"><h6>My Projects</h6></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link active" href="aboutme.html"><h6>About Me</h6></a>
+			      </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="container">
+		<div class = "row justify-content-center">
+			<div class="text-center"><h1>About Me</h1></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-lg-6 text-break"><p>I am Alonso Munoz and I am a software developer.</p></div>
+			<div class="col-sm-12 col-lg-6"><img class="avatar mx-auto d-block" src="imgs/avatar.jpg"  alt="Picture Of Me"></div>
+		</div>
+	</section>
+	<section class="container">
+		<div class = "row justify-content-center">
+			<div class="text-center"><h3>Education</h3></div>
+      <div class="col-12 text-break"><p>I went to so and so High School. I have graduated from So and So University recieving a Bachelor's Degree in Computer Science.</p></div>
+		</div>
+    <div class = "row justify-content-center">
+			<div class="text-center"><h3>Experience</h3></div>
+      <div class="col-12 text-break"><p>I have worked at So and So company since February 2020.</p></div>
+		</div>
+    <div class = "row justify-content-center">
+			<div class="text-center"><h3>Certifications</h3></div>
+      <div class="col-12 text-break"><p>I completed the Deep Learning Specialization from DeepLearning.AI and Python For Everybody from the University of Michigan at coursera</p></div>
+		</div>
+	</section>
+  <section class = "container">
+		<div class = "row justify-content-center">
+			<div class="text-center"><h4>Links</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-break">
+				<p class="text-center">My github is <a href="https://github.com/fake-profile" target="_blank" style="color: #000000;">https://github.com/fake-profile</a>.</p>
+			</div>
+		</div>
+	</section>
+	<section class = "container">
+		<div class = "row justify-content-center">
+			<div class="text-center"><h4>Verification</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-12 "><img class="avatar mx-auto d-block verification" src="imgs/verification_aboutme_page.jpg"  alt="Picture Of the verification of the website done by W3C Markup Validation Service."></div>
+			<div class="col-12 "><img class="avatar mx-auto d-block" src="imgs/code4.jpg"  alt="Picture of the verification of the website done by WebAim."></div>
+			<div class="col-12 text-break"><p class="text-center" id="change_this">Change this text</p></div>
+		</div>
+	</section>
+	<script>
+	function load(){
+		var para = document.getElementById("change_this");
+		console.log("Hello Console.");
+
+		para.innerHTML = "Changed this text when the window loaded. Curabitur facilisis blandit dui, quis interdum purus congue eget. Mauris ultrices ex vel tincidunt ullamcorper. Nulla a congue tellus, vel porttitor nunc. Sed lacinia maximus lacus nec scelerisque. Donec ullamcorper lacus id purus venenatis, ut ornare erat faucibus. Mauris tempus efficitur blandit. Duis ac risus in erat elementum imperdiet. Aenean dignissim non magna vitae dapibus. Quisque lacinia erat eu nibh tempor, ac interdum lectus congue. Proin id turpis tincidunt, venenatis magna ac, iaculis nulla. Praesent tellus massa, pretium ut fermentum vel, lacinia ut justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus nec venenatis nulla. Nulla facilisi. Donec ac pellentesque ipsum.";
+	}
+	window.onload = load;
+	</script>
+	<footer class = "fixed-bottom">
+		<div class = "row justify-content-center">
+			<div class=""><h4>Contact Me</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-break"><p class="text-center">Contact me at my phone number (---)-NOT-REAL</p></div>
+		</div>
+	</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
