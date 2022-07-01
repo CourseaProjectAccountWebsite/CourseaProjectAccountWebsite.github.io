@@ -60,6 +60,9 @@ footer h4{
 .carousel-control-prev:hover{
   background: none;
 }
+.email_thing{
+  color: #FFFFFF;
+}
 @media screen and (min-width: 540px) and (max-width: 960px) {
   body{
     margin-left: 15%;
@@ -119,5 +122,8 @@ footer h4{
   }
   .carousel-control-prev:hover{
     background: none;
+  }
+  .email_thing{
+    color: #000000;
   }
 }
